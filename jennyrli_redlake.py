@@ -52,7 +52,7 @@ points = alt.Chart(df, width=500, height=150).mark_circle().encode(
     color = alt.condition(alt.datum.Location == 'Red Lake, MN', 'Location:N', alt.value("#997F6A"), legend=None),
     tooltip=['Location','Value', 'Unit', 'Year'],
 ).transform_filter(
-    selection).transform_filter(alt.datum.Location != 'Minnesota').properties(width=600 height= 400) #Changed
+    selection).transform_filter(alt.datum.Location != 'Minnesota').properties(width=600,height= 400) #Changed
 
 line = alt.Chart(df, width=500, height=150).mark_line(size=1, color='darkred').encode(
     alt.X('Year:O',title = None),
