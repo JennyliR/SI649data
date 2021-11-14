@@ -1,2 +1,6 @@
 streamlit==0.84
 python==3.9.6
+altair==4.1.0
+numpy==1.19.5
+packaging==20.8
+pandas==1.2.1
