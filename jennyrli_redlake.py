@@ -10,7 +10,7 @@ st.image('https://raw.githubusercontent.com/JennyliR/SI649data/main/redlake_titl
 
 year_select = st.selectbox(label='In Year',
                              options=yrs, index=3)
-st.title('Red Lake County Ranks')
+st.title('Of 87 County in Minnesota, Red Lake County Ranks')
 
 #Chart1
 ##Category Selection
